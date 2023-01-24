@@ -1,0 +1,11 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Corporation",
+  "name": "Ligo AI",
+  "alternateName": "LAI",
+  "url": "https://ligoai.com/logo.png",
+  "logo": "https://ligoai.com/",
+  "sameAs": "https://twitter.com/ligoaicom"
+}
+</script>
