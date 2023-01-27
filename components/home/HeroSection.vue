@@ -9,13 +9,14 @@
       >
         <v-stack direction="column" class="hero-content-container">
           <v-heading :level="1" class="hero-title">
-            Ligo AI            
+            <div>Ligo AI</div>            
           </v-heading>
           <v-stack direction="column">
             <app-section-descriptor
-              description="Connecting businesses with the power of AI on top of cutting-edge blockchain technologies."
+              description="Connecting businesses with the power of artificial intelligence."
               class="hero-description"
             />
+
             <v-stack align="center" gap="1.5rem" sm-gap="1rem" wrap>
               <a href="" target="_blank">
                 <v-button label="Primary BTN" label-transform="uppercase" />
@@ -28,29 +29,48 @@
                   class="secondary-button"
                 />
               </a>
-            </v-stack>
-          </v-stack>
-        </v-stack>
 
+            </v-stack>
+
+          </v-stack>
+
+        </v-stack>
+        
+
+     
       </v-stack>
+
+
+
     </v-container>
 
   </section>
 </template>
 
 <script>
+
+
+
+
+
+
 const LIGO_AI_URL = process.env.LIGO_AI_BOOK_DEMO_URL
 const LIGO_AI_DASHBOARD_URL = process.env.LIGO_AI_DASHBOARD_URL
 
 export default {
   name: 'HeroSection',
+
+
   data() {
     return {
       isIntroPlaying: false,
       LIGO_AI_URL,
       LIGO_AI_DASHBOARD_URL,
+
+     
     }
   },
+
 }
 </script>
 
