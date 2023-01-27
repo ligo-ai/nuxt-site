@@ -78,7 +78,9 @@ export default {
 
   css: ['~/assets/css/normalize.css', '~/assets/css/styles.css'],
 
-  plugins: [],
+  plugins: [
+
+  ],
 
   components: ['~/components', '~/components/lib'],
 
