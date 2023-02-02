@@ -54,6 +54,9 @@ export default {
           designation: 'Lead Frontend Developer',
           image: 'bogdan',
           links: {
+            github: "https://github.com/mrtizu",
+            twitter: "https://twitter.com/mrtizu"
+          },
 
           },
         },
