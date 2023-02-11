@@ -46,7 +46,6 @@ export default {
           designation: 'Founder, Senior Backend Developer',
           image: 'marius',
           links: {
-
           },
         },
         {
@@ -57,15 +56,13 @@ export default {
             github: "https://github.com/mrtizu",
             twitter: "https://twitter.com/mrtizu"
           },
-
           },
-        },
+
         {
           name: 'Alina Dumitru',
           designation: 'Head of Marketing',
           image: 'alina',
           links: {
-
           },
         },
         {
@@ -73,7 +70,6 @@ export default {
           designation: 'Assistant Developer',
           image: 'cristian',
           links: {
-
           },
         },
         {
@@ -81,47 +77,37 @@ export default {
           designation: 'UX/UI Designer',
           image: 'georgiana',
           links: {
-
           },
         },
       ],
-
-
     }
   },
-
 }
 </script>
 
 <style lang="css" scoped>
 @import url('../lib/media-query-helper.css');
-
 .member-container {
   margin: 1rem 0;
   text-align: center;
-
   @media (--viewport-medium) {
     text-align: start;
   }
 }
-
 .member-container > * {
   margin: 1rem 0;
   flex: 1 0 33%;
 }
-
 .other-members {
   max-height: 0;
   opacity: 0;
   overflow: hidden;
   transition: max-height 0.4s, opacity 0.8s;
 }
-
 .expanded {
   opacity: 1;
   max-height: 100%;
 }
-
 @media (--viewport-medium) {
   .member-container > * + * {
     margin-top: 1rem;
